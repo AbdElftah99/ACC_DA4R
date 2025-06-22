@@ -1,0 +1,31 @@
+﻿using ACC_DA4R.Models;
+using Newtonsoft.Json;
+
+namespace ACC_DA4R.Controllers
+{
+    public class AdminController : ApiController
+    {
+        private readonly ILogger<AdminController> _logger;
+        private readonly APS _aps;
+
+        public AdminController(ILogger<AdminController> logger, APS aps)
+        {
+            _logger = logger;
+            _aps = aps;
+        }
+
+        //[HttpGet("projectUsers")]
+        //public async Task<ActionResult<string>> ListProjectUsers(string projectId)
+        //{
+        //    var tokens = await AuthController.PrepareTokens(Request, Response, _aps);
+        //    if (tokens == null)
+        //    {
+        //        return Unauthorized();
+        //    }
+
+        //    var projects = await _aps.GetProjectUsersACC(Request.Query["projectId"], tokens);
+        //    return JsonConvert.SerializeObject(projects);
+        //}
+
+    }
+}

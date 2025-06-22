@@ -1,0 +1,19 @@
+﻿{
+  "profiles": {
+    "http": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "applicationUrl": "http://localhost:5022",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "ASPNETCORE_URLS": "http://localhost:8090",
+        "APS_CLIENT_ID": "JY8dUMWzuaQAuwFWbS0O3LoX0zWHLyT1ejNJeOPBl9CQtFRZ",
+        "APS_CLIENT_SECRET": "6RbJDxKhW9sKMJ34LNa120BTAODJuwb0OecsGbxadtUulZoWSpVml1UsxGugLpfu",
+        "APS_CALLBACK_URL": "http://localhost:8090/api/aps/callback/oauth",
+        "OAUTH_DATABASE": "mongodb+srv://Admin:Admin@cluster0.tkbhao1.mongodb.net/designcheck?retryWrites=true&w=majority&appName=Cluster0",
+        "APS_WEBHOOK_URL": "https://d04b-156-210-167-203.ngrok-free.app"
+      }
+    }
+  }
+}
